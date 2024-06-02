@@ -1,0 +1,40 @@
+@media (max-width: 727px) {
+    .input-label {
+        text-align: center;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .tecnologia .ling-pro {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 430px) {
+    body {
+        font-size: 12px;
+    }
+
+    .tecnologia .ling-pro {
+        font-size: 12px;
+    }
+    .nome-email, .senha-usuario {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nome-email input, .senha-usuario input {
+        width: 50%;
+    }
+
+    .botoes button {
+        width: 20%;
+    }
+
+    .botoes {
+        gap: 10px;
+    }
+}

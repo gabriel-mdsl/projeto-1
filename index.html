@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro do usuário</title>
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+</head>
+
+<body>
+    <main class="cadastro-dev">
+        <div class="form-dev">
+            <form class="form" action="#" method="get">
+                <fieldset>
+                    <legend>Formulário de Devs</legend>
+                    <div class="cadastro">
+                        <div class="nome-email">
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" />
+                            <input type="email" id="email" name="email" placeholder="Seu e-mail" />
+                        </div>
+                        <div class="senha-usuario">
+                            <input type="password" id="password" name="password" placeholder="Definir senha" />
+                            <input type="text" name="usuario" id="usuario" placeholder="Nome de usaário" />
+                        </div>
+                    </div>
+                    <div class="area-desenvolvimento">
+                        <label>Qual área da web você desenvolve?</label>
+                        <div class="definicao">
+                            <div>
+                                <input type="radio" name="devweb" value="fronend" checked /> Front-end
+                            </div>
+                            <div>
+                                <input type="radio" name="devweb" value="fullstack" /> Back-end
+                            </div>
+                            <div>
+                                <input type="radio" name="devweb" value="fullstack" /> Full-stack
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experincia">
+                        <label>Qual o seu nível de experiência?</label>
+                        <div class="selecao">
+                            <select id="selecione">
+                                <option selected disabled value="">Selecione</option>
+                                <option value="junior">Júnior</option>
+                                <option value="pleno">Pleno</option>
+                                <option value="senior">Sênior</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tecnologia">
+                            <label class="ling-pro">Quais as tecnologias que você domina?</label>
+                            <br>
+                            <div class="input-label">
+                                <input type="checkbox" name="tecnologia1" id="tecnologia1" value="html" />
+                                <label for="tecnologia1">HTML</label>
+
+                                <input type="checkbox" name="tecnologia2" id="tecnologia2" value="css" />
+                                <label for="tecnologia2">CSS</label>
+
+                                <input type="checkbox" name="tecnologia3" id="tecnologia3" value="javascript" />
+                                <label for="tecnologia3">JavaScript</label>
+
+                                <input type="checkbox" name="tecnologia4" id="tecnologia4" value="python" />
+                                <label for="tecnologia4">Python</label>
+
+                                <input type="checkbox" name="tecnologia5" id="tecnologia5" value="php" />
+                                <label for="tecnologia5">PHP</label>
+
+                                <input type="checkbox" name="tecnologia6" id="tecnologia6" value="typescript" />
+                                <label for="tecnologia6">TypeScript</label>
+
+                                <input type="checkbox" name="tecnologia7" id="tecnologia7" value="react" />
+                                <label for="tecnologia7">React</label>
+
+                                <input type="checkbox" name="tecnologia8" id="tecnologia8" value="java" />
+                                <label for="tecnologia8">Java</label>
+
+                                <input type="checkbox" name="tecnologia9" id="tecnologia9" value="vue" />
+                                <label for="tecnologia9">Vue JS</label>
+
+                                <input type="checkbox" name="tecnologia10" id="tecnologia10" value="bootstrap" />
+                                <label for="tecnologia10">Bootstrap</label>
+                            </div>
+                        </div>
+                        <div class="url">
+                            <label>Sua URL</label>
+                            <br>
+                            <div class="sua-url">
+                                <input class="link-url" type="url" name="url" id="url"
+                                    placeholder="Portifólio ou GitHub" />
+                            </div>
+                        </div>
+                        <div class="xp">
+                            <label>Conte um pouco sobre sua esperiência</label>
+                            <br>
+                            <div class="sobre-voce">
+                                <textarea class="descricao" name="esperiencia" id="esperiencia"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="botoes">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
