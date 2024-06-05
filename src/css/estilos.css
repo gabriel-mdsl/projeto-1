@@ -19,6 +19,17 @@ body::before {
     opacity: 0.2;
 }
 
+textarea:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+input:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
 
 body {
     background-color: rgb(138, 43, 226, 0.5);
@@ -124,6 +135,18 @@ legend {
     margin-bottom: 10px;
 }
 
+.botoes button:first-child:hover {
+    background-color: rgb(0, 102, 255);
+    color: #ffffff;
+    transition: all 300ms ease-in-out;
+}
+
+.botoes button:last-child:hover {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    transition: all 300ms ease-in-out;
+}
+
 button {
     padding: 5px;
     border-radius: 5px;
@@ -136,7 +159,6 @@ button {
     height: 50px;
     border-radius: 5px;
     border: solid 1px;
-
 }
 
 .url .link-url,
@@ -147,7 +169,7 @@ button {
 }
 
 .cadastro input:hover {
-    background-color: #B0E0E6;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .sua-url {
