@@ -179,3 +179,16 @@ button {
 .sobre-voce {
     margin-top: 8px;
 }
+
+select {
+    border-radius: 5px;
+}
+
+select:focus {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: #ffffff;
+}
+
+.input-label input:checked + label {
+    color: #ffff00;
+}
