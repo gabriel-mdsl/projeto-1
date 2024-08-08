@@ -17,25 +17,25 @@
                     <legend>Formulário de Devs</legend>
                     <div class="cadastro">
                         <div class="nome-email">
-                            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" />
-                            <input type="email" id="email" name="email" placeholder="Seu e-mail" />
+                            <input class="nome" type="text" id="nome" name="nome" placeholder="Seu nome completo" required/>
+                            <input class="contato" type="email" id="email" name="email" placeholder="Seu e-mail" required/>
                         </div>
                         <div class="senha-usuario">
-                            <input type="password" id="password" name="password" placeholder="Definir senha" />
-                            <input type="text" name="usuario" id="usuario" placeholder="Nome de usaário" />
+                            <input class="senha" type="password" id="password" name="password" placeholder="Definir senha" required/>
+                            <input class="usuario" type="text" name="usuario" id="usuario" placeholder="Nome de usuário" required/>
                         </div>
                     </div>
                     <div class="area-desenvolvimento">
                         <label>Qual área da web você desenvolve?</label>
                         <div class="definicao">
                             <div>
-                                <input type="radio" name="devweb" value="fronend" checked /> Front-end
+                                <input class="front-end" type="radio" name="devweb" value="front-end" checked/> Front-end
                             </div>
                             <div>
-                                <input type="radio" name="devweb" value="fullstack" /> Back-end
+                                <input class="back-end" type="radio" name="devweb" value="Back-End" /> Back-end
                             </div>
                             <div>
-                                <input type="radio" name="devweb" value="fullstack" /> Full-stack
+                                <input class="full-stack" type="radio" name="devweb" value="full-stack" /> Full-stack
                             </div>
                         </div>
                     </div>
@@ -92,11 +92,11 @@
                             <br>
                             <div class="sua-url">
                                 <input class="link-url" type="url" name="url" id="url"
-                                    placeholder="Portifólio ou GitHub" />
+                                    placeholder="Portifólio ou GitHub" required/>
                             </div>
                         </div>
                         <div class="xp">
-                            <label>Conte um pouco sobre sua esperiência</label>
+                            <label>Conte um pouco sobre sua experiência: (Opcional)</label>
                             <br>
                             <div class="sobre-voce">
                                 <textarea class="descricao" name="esperiencia" id="esperiencia"></textarea>
@@ -110,6 +110,10 @@
                 </fieldset>
             </form>
         </div>
+
+        <div class="resultado"></div>
+
+        <script src="src/js/index.js"></script>
     </main>
 </body>
 
